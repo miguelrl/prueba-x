@@ -1,0 +1,78 @@
+dvr
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=237689&autoplay=false&rnd=121
+
+
+http://www.tvolucion.com/embed/embed.php?id=264788&w=282&h=211&skin=home&move_reporting=esmas_home
+
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=235651&w=500&h=500&autoplay=true&skin=home   (TV3 > Cómicos > Cásate conmigo >)
+
+urlweb=window.location.search.substring(1);
+separa_urlweb=urlweb.split("&");
+arregloVar=[];
+for(i=0;i<separa_urlweb.length;i++){
+    posiciones=separa_urlweb[i].split("=");
+    variable=posiciones[0];
+    valorVar=posiciones[1];
+    arregloVar[variable]=valorVar;
+}
+autoplay=arregloVar['autoplay'];
+h=arregloVar['h'];
+w=arregloVar['w'];
+
+pruebas con detalle embed... cambios x migue
+
+brightcove:
+http://tvolucion.esmas.com/30/test/261295/mentir-vivir-capitulo-60-con-bc/
+
+dvr en vivo
+http://tvolucion.esmas.com/30/test/260920/prueba-player-amp-premier-live-tu-diriges/
+
+configuracionn del banner player
+site:     es.televisa.video/telenovelas.nosabeamar|0000
+canal:    es.televisa.video/telenovelas.nosabeamar|1011
+subcanal: es.televisa.video/telenovelas.nosabeamar|1011
+
+dvr clip
+
+
+
+AKAMAI
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=163226&smavp=true&h=343&w=500&canal=000
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=163226&#smavp=true&autoplay=false&h=343&w=500&site=es.esmas.videonot/forotv.envivo|1011&canal=es.esmas.videonot/forotv.envivo|1011&subcanal=es.esmas.videonot/forotv.envivo|1011
+
+
+otro id de akamai vive en test
+
+245370
+
+
+http://tv.televisadeportes.esmas.com/embed/embed.php?id=265855&w=601&h=340&swf=2&site=es.esmas.videodep&canal=es.esmas.videodep|programas|futbolito-bimbo-2014&tiempo=1713
+
+----------------------------------------
+valores pasados por hardcodeo
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920&#autoplay=true&canal=es.televisa.video|telenovelas.nosabeamar&subcanal=00000
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920&#autoplay=true&canal=es.televisa.video|telenovelas.nosabeamar&subcanal=0000
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920&#autoplay=true&canal=es.televisa.video|telenovelas.nosabeamar&subcanal=0
+
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920&#autoplay=true&canal=es.televisa.video|telenovelas.nosabeamar&subcanal=1011
+
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920&#autoplay=true&subcanal=1011
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920&#autoplay=true&canal=es.televisa.video|telenovelas.nosabeamar
+
+
+
+valores de la base de datos
+
+
+http://cgs-003.esmas.com/tv3/detalle_embed_m.php?id=260920
+
+
+
+
+
